@@ -1,3 +1,10 @@
+Basic Application for demonstrating lifecycle hooks in angular.
+
+Open the console(Developer Tools) in browser for better understanding.
+
+# Note
+No major css stylings implemented
+
 # LifeCycleHooks
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
