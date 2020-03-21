@@ -23,7 +23,7 @@ export class AppComponent {
     }
   }
 
-  switchVisibility(){
+  switchVisibility() {
     this.isVisible = !this.isVisible;
   }
 

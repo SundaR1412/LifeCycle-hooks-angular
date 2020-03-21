@@ -23,7 +23,7 @@ export class ChildComponent implements OnInit, OnChanges, DoCheck, AfterContentI
 
 
   // Executed when the changes are passed by value
-  // Executes during the data from parent component changes
+  // Executed during the data from parent component changes
   ngOnChanges(change: SimpleChanges) {
     console.log('ngOnChanges gets executed', change);
     const numberChange: SimpleChange = change.myNumber;
@@ -45,8 +45,8 @@ export class ChildComponent implements OnInit, OnChanges, DoCheck, AfterContentI
   }
 
 
-  // Executes once during component loading for the first time
-  // Executes after ngOnChanges, ngOnInit, ngDoCheck
+  // Executed once during component loading for the first time
+  // Executed after ngOnChanges, ngOnInit, ngDoCheck
   ngAfterContentInit() {
     console.log('ngAfterContentInit gets executed');
   }
